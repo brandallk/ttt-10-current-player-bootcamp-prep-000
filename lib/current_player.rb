@@ -12,6 +12,6 @@ def current_player(board)
   (turn_count(board) % 2 == 0) ? "O" : "X"
 end
 
-board = [" ", " ", "O", " ", "X", " ", "X", " ", " "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 puts turn_count(board)
 puts current_player(board)
