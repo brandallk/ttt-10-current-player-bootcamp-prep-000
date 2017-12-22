@@ -8,5 +8,5 @@ def turn_count(board)
   count
 end
 
-board = [" ", " ", "O", " ", "X", " ", " ", " ", " "]
+board = [" ", " ", "O", " ", "X", " ", "X", " ", " "]
 puts turn_count(board)
