@@ -12,6 +12,6 @@ def current_player(board)
   turn_count(board).even? ? "X" : "O"
 end
 
-board = [" ", " ", "O", " ", "X", "X", " ", " ", " "]
-puts turn_count(board)
-puts current_player(board)
+# board = [" ", " ", "O", " ", "X", "X", " ", " ", " "]
+# puts turn_count(board)
+# puts current_player(board)
